@@ -2,11 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        
+        <link rel="stylesheet" href="recipe.css">
     </head>
 
 
     <body>
+
+        <!--Top nav bar--> 
+        <div class="topnav">
+            <a href="/index.html#home">Home</a>
+            <a href="/about.html#about">About</a>
+            <a href="/contact.html#contact">Contact</a>
+            <a href="/recipes.html#recipes">Recipes</a>
+            <input type="text" placeholder="Search..">
+          </div>
+
+        <!--Photo and recipe-->
         <h1>Weeknight Tacos</h1>
         <img src="../images/weeknight-tacos.jpg"
             width="500"
@@ -29,5 +40,15 @@
                 <li>If needed, deglaze pan with a small amount of water, stock, wine, or beer.</li>
                 <li>Find condiments, serve.</li>
             </ol>
+
+        <!--Adds "Back to the top" button-->
+        <form>
+            <input 
+                class="bottom-button"
+                type="BUTTON" 
+                value="back to the top" 
+                onclick="window.location.href='#top'">
+        </form>
+        
     </body>
 </html>

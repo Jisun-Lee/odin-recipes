@@ -2,11 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="recipe.css">
         
     </head>
 
 
     <body>
+
+        <!--Top nav bar--> 
+        <div class="topnav">
+            <a href="/index.html#home">Home</a>
+            <a href="/about.html#about">About</a>
+            <a href="/contact.html#contact">Contact</a>
+            <a href="/recipes.html#recipes">Recipes</a>
+            <input type="text" placeholder="Search..">
+          </div>
+
+        <!--Photo and recipe-->
         <h1>Chicken Thighs</h1>
         <img src="../images/chicken-thighs.jpg"
             width="500"
@@ -36,5 +48,14 @@
                 <li>Spices such as coriander seed and cardamom need to be toasted in a dry pan first.</li>
                 <li>Cornstarch slurry: In a small bowl, moisten about a tablespoon of cornstarch with two tablespoons of COLD water. Stir. Add slowly to whatever you are trying to thicken; it will thicken when the liquid reaches boiling temperature.</li>
             </ul>
+
+        <!--Adds "Back to the top" button-->
+        <form>
+            <input 
+                class="bottom-button"
+                type="BUTTON" 
+                value="back to the top" 
+                onclick="window.location.href='#top'">
+        </form>
     </body>
 </html>
